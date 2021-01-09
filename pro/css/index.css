@@ -1,0 +1,415 @@
+/* banner */
+.banner{
+	width: 1188px;
+	height: 255px;
+}
+/* banner下面的版块 */
+.banner_xia{
+	width: 1190px;
+	height: 335px;
+	background-color: #fff;
+}
+.tj{
+	display: flex;
+}
+.dcgj{
+	height: 52px;
+	line-height: 52px;
+	color: #20516f;
+	font-size: 20px;
+	margin-left: 10px;
+}
+/* .title-panel{
+	font-size: 20px;
+	margin-right: 20px;
+} */
+.w_1190{
+	width: 1190px;
+}
+/* 北京杭州 */
+.beijing{
+	width: 380px;
+	border-right: 1px dotted #dedede; 
+	float: left;
+	margin: 0;
+}
+.beijing2{
+	width: 380px;
+	float: left;
+}
+    
+.list-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-decoration: none;
+	background-color: #fff;
+	transition: a11 2s;
+	cursor: pointer;
+	line-height: 50px;
+}
+
+.bj{
+	position: relative;
+}
+.djbj{
+	width: 150px;
+	height: 30px;
+  line-height: 20px;
+	font-size: 14px;
+  color: #4e5662;
+  padding: 4px;
+  border: 1px solid #c7d1e4;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: inset 0 2px 3px #eee;
+	float: left;
+	position: absolute;
+	top: 30px;
+	margin-left: 20px;
+}
+.djbj_1{
+	width: 440px; 
+	height: 300px;
+	border: 1px solid #F2f2f2;
+	position: relative;
+	top: 60px;
+  display: none; 
+}
+.djbj:focus .djbj_1{
+	display: block;
+}
+
+/* 出发下拉 */
+.xl_1{
+	position: relative;
+	top:30px;
+	left: 180px;
+}
+.xl_2{
+	position: relative;
+	top:30px;
+	left: 190px;
+}
+.xl{
+	width: 90px;
+	height: 30px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #4e5662;
+	padding: 4px;
+	border: 1px solid #c7d1e4;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: inset 0 2px 3px #eee;
+	font-size: 14px;
+}
+.dd:active{
+	width: 90px;
+	height: 100px;
+	padding: 5px 0 !important;
+	line-height: 60px;
+}
+/* 热门国家 */
+.rmgj{
+	color: #13334d;
+	padding: 4px;
+	font-size: 12px;
+}
+
+/* 热门城市 */
+.rmcs{
+	width: 420px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 10px;
+}
+.rmcs a{
+	float: left;
+	display: block;
+	width: 66px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 10px;
+	/* margin: 10px 0; */
+}
+.chengshi{
+	margin: 10px 0;
+}
+.rmcs a:hover{
+	background-color: #fff3cb !important;
+}
+/* ABCDE */
+.A1{
+	display: flex;
+	flex-direction: row;
+}
+.AA1{
+	margin: 6px 0;
+}
+.A1_A{
+	width: 21px;
+	text-align: right;
+	color: #f30;
+	/* padding-top:7px; */
+}
+.A1 .aq{
+	width: 420px;
+	font-size: 14px;
+	/* padding-top:8px; */
+	margin-left: 10px;
+}
+
+.A1 .aq span a{
+	display: block;
+	float: left;
+	align-items: center;
+	width: 66px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+	color: #333;
+	font-size: 14px;
+}
+.A1 .aq span a:hover{
+	background-color: #fff3cb !important;
+}
+/* 地址 */
+.add{
+	color: #355976;
+	width: 140px;
+	color: #344976;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	float: left;
+}
+/* 日期 */
+.date{
+	float: left;
+	font-size: 12px;
+	color: gray;
+	width: 58px;
+	display: block;
+}
+/* 价格 */
+.price{
+	float: left;
+	color: #ff5741;
+	font-size: 22px;
+	width: 102px;
+	text-align: right;
+	display: block;
+}
+/* 优惠 */
+.dis{
+	float: left;
+	color: gray;
+	width: 50px;
+	font-size: 12px;
+	display: block;
+	padding-left: 10px;
+}
+/* 鼠标悬停 */
+.banner_xia a:hover {
+	background-color:#ededed;
+	text-decoration: none;
+}
+
+/*  */
+.title-panel{
+	height: 52px;
+  line-height: 52px;
+	color: #20516f;
+	font-size: 20px;
+}
+
+/* <!-- 单程 国际/中国港澳台公务头等特价 --> */
+.banner_xia2{
+	width: 1190px;
+	height: 220px;
+	margin-top: 10px;
+	border: 1px solid  #ccc;
+}
+.xl_3{
+	float:left;
+	position: relative;
+	top:12px;
+	left: 11px;
+}
+.rm{
+	position: relative;
+	left: 30px;top: 18px;
+	display: inline-block;
+  float: left; 
+	background-color: #ff684d;
+	width: 30px;
+	height: 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 3px;
+}
+.rm:hover{
+	color: #fff;
+}
+.zggat{
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	left: 40px;top: 18px;
+	font-size: 10px;
+	color:#20516f;
+	cursor: pointer;
+}
+.zggat:hover{
+	color: red;
+}
+.gd{
+	float: right;
+	position: relative;
+	top:18px;
+	right:25px;
+	cursor: pointer;
+	color: #355976;;
+	font-size: 10px;
+}
+.gd:hover{
+	color: red;
+}
+.dcgi1{
+	position: relative;
+	margin:0 10px;
+	float: left;
+	width: 100%;
+}
+.banner_xia2 p{
+	margin-top: 0;
+	position: relative;
+	margin-bottom: 0;
+	margin-left: 0px;
+	
+}
+.shanghai{
+	width: 380px;
+	border-right: 1px dotted #dedede; 
+	float: left;
+}
+.shanghai2{
+	width: 380px;
+	float: left;
+}
+.banner_xia3{
+	width: 1190px;
+	float: left;
+}
+.list-item2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-decoration: none;
+	background-color: #fff;
+	transition: a11 .3s;
+	cursor: pointer;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.add2{
+	color: #355976;
+	width: 150px;
+	color: #344976;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	float: left;
+}
+/* 日期 */
+.date2{
+	float: left;
+	font-size: 12px;
+	color: gray;
+	width: 140px;
+	display: block;
+}
+/* 价格 */
+.price2{
+	float: left;
+	color: #ff5741;
+	font-size: 22px;
+	width: 78px;
+	text-align: right;
+	display: block;
+}
+.banner_xia3 a:hover {
+	background-color:#faf4e0;
+	text-decoration: none;
+}

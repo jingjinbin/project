@@ -1,0 +1,90 @@
+.w1190{
+	width: 1190px;
+	margin: 0 auto;
+}
+/*  */
+.a{
+	height: 169px;
+	width: 1190px;
+	border-top: 3px solid #ffc300;
+	padding: 40px 0;
+}
+.a1{
+	width: 21%;
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+	border-right: 1px dotted #dedede;
+}
+
+.title{
+	font-size: 16px;
+	font-family: "Microsoft YaHei",simsun;
+	color: #2b577a;
+	/* display: block; */
+	font-weight: 700;
+	margin: 0;
+}
+.a1_1{
+	width: 220px;height: 36px;
+	margin-top: 10px;
+}
+.a1_2 a{
+	font-size: 12px;
+	color: #8a9ca8;
+	text-decoration: none;
+	padding-right: 10px;
+}
+.a2{
+	position: relative;
+	width: 28%;
+	float: right;	
+}
+.a2 img{
+	width:95%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.b_1{
+	border-bottom: 1px dashed #e8e8e8;
+}
+.b ul li{
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	padding-top: 8px;
+}
+.b ul li a,span{
+	color: #6c6c6c;
+}
+.b ul li span{
+	margin: 0 4px;
+}
+.b_2 ul a{
+	margin-right: 4px;
+}
+.b_2{
+	border-bottom: 1px dashed #e8e8e8;
+	margin-top:30px;
+}
+.b_3 {
+	position: relative;
+}
+.b_3 span{
+	position: absolute;
+	/* float: left; */
+	top:30px;
+	left: 0px;
+	line-height: 26px;
+	color: #999;
+	/* display: block; */
+	font-size: 12px;
+}
+.b_4{
+	position: absolute;
+}
+.b_4 img{
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
